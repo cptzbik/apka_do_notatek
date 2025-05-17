@@ -3,3 +3,4 @@ python-dotenv
 streamlit
 streamlit-audiorecorder
 pydub
+qdrant-client
