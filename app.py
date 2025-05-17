@@ -7,6 +7,9 @@ from hashlib import md5
 from qdrant_client import QdrantClient
 from qdrant_client.models import PointStruct, Distance, VectorParams
 
+url = st.secrets["QDRANT_URL"]
+api_key = st.secrets["QDRANT_API_KEY"]
+
 env = dotenv_values(".env")
 
 EMBEDDING_MODEL = "text-embedding-3-large"
